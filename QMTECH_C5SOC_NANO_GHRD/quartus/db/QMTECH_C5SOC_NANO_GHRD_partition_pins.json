@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LED",
+					"strict" : false
+				},
+				{
+					"name" : "DIPSW[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DIPSW[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DIPSW[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DIPSW[3]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_CLK1_50",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[0]",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

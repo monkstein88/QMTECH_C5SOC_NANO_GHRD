@@ -1,0 +1,196 @@
+Flow report for QMTECH_C5SOC_NANO_GHRD
+Fri Apr 10 03:04:05 2026
+Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2025  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
+
+
+
++---------------------------------------------------------------------------------------+
+; Flow Summary                                                                          ;
++---------------------------------+-----------------------------------------------------+
+; Flow Status                     ; Successful - Fri Apr 10 03:04:05 2026               ;
+; Quartus Prime Version           ; 25.1std.0 Build 1129 10/21/2025 SC Standard Edition ;
+; Revision Name                   ; QMTECH_C5SOC_NANO_GHRD                              ;
+; Top-level Entity Name           ; QMTECH_C5SOC_NANO_GHRD                              ;
+; Family                          ; Cyclone V                                           ;
+; Device                          ; 5CSEMA6U23I7                                        ;
+; Timing Models                   ; Final                                               ;
+; Logic utilization (in ALMs)     ; 2,986 / 41,910 ( 7 % )                              ;
+; Total registers                 ; 4218                                                ;
+; Total pins                      ; 127 / 314 ( 40 % )                                  ;
+; Total virtual pins              ; 0                                                   ;
+; Total block memory bits         ; 2,816 / 5,662,720 ( < 1 % )                         ;
+; Total DSP Blocks                ; 0 / 112 ( 0 % )                                     ;
+; Total HSSI RX PCSs              ; 0                                                   ;
+; Total HSSI PMA RX Deserializers ; 0                                                   ;
+; Total HSSI TX PCSs              ; 0                                                   ;
+; Total HSSI PMA TX Serializers   ; 0                                                   ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                                       ;
+; Total DLLs                      ; 1 / 4 ( 25 % )                                      ;
++---------------------------------+-----------------------------------------------------+
+
+
++--------------------------------------------+
+; Flow Settings                              ;
++-------------------+------------------------+
+; Option            ; Setting                ;
++-------------------+------------------------+
+; Start date & time ; 04/10/2026 02:54:21    ;
+; Main task         ; Compilation            ;
+; Revision Name     ; QMTECH_C5SOC_NANO_GHRD ;
++-------------------+------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                                     ;
++---------------------------------------+----------------------------------------------------------------------------------+--------------------------------------+--------------------------------+-----------------------------------+
+; Assignment Name                       ; Value                                                                            ; Default Value                        ; Entity Name                    ; Section Id                        ;
++---------------------------------------+----------------------------------------------------------------------------------+--------------------------------------+--------------------------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID                 ; 90729346738775.177577886134208                                                   ; --                                   ; --                             ; --                                ;
+; ECO_REGENERATE_REPORT                 ; On                                                                               ; Off                                  ; --                             ; --                                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST       ; Off                                                                              ; --                                   ; --                             ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST       ; Off                                                                              ; --                                   ; --                             ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST       ; Off                                                                              ; --                                   ; --                             ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST       ; Off                                                                              ; --                                   ; --                             ; eda_board_design_symbol           ;
+; EDA_OUTPUT_DATA_FORMAT                ; Systemverilog Hdl                                                                ; --                                   ; --                             ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                   ; Questa Altera FPGA (SystemVerilog)                                               ; <None>                               ; --                             ; --                                ;
+; EDA_TIME_SCALE                        ; 1 ps                                                                             ; --                                   ; --                             ; eda_simulation                    ;
+; FITTER_EFFORT                         ; Standard Fit                                                                     ; Auto Fit                             ; --                             ; --                                ;
+; HPS_ISW_FILE                          ; ../qsys/soc_system/synthesis/submodules/sequencer/alt_types.pre.h                ; --                                   ; soc_system_hps_0_hps_io_border ; --                                ;
+; HPS_ISW_FILE                          ; ../qsys/soc_system/synthesis/submodules/sequencer/emif.pre.xml                   ; --                                   ; soc_system_hps_0_hps_io_border ; --                                ;
+; HPS_ISW_FILE                          ; ../qsys/soc_system/synthesis/submodules/sequencer/sdram_io.pre.h                 ; --                                   ; soc_system_hps_0_hps_io_border ; --                                ;
+; HPS_ISW_FILE                          ; ../qsys/soc_system/synthesis/submodules/sequencer/sequencer.pre.c                ; --                                   ; soc_system_hps_0_hps_io_border ; --                                ;
+; HPS_ISW_FILE                          ; ../qsys/soc_system/synthesis/submodules/sequencer/sequencer.pre.h                ; --                                   ; soc_system_hps_0_hps_io_border ; --                                ;
+; HPS_ISW_FILE                          ; ../qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto.pre.h           ; --                                   ; soc_system_hps_0_hps_io_border ; --                                ;
+; HPS_ISW_FILE                          ; ../qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto_ac_init.pre.c   ; --                                   ; soc_system_hps_0_hps_io_border ; --                                ;
+; HPS_ISW_FILE                          ; ../qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto_inst_init.pre.c ; --                                   ; soc_system_hps_0_hps_io_border ; --                                ;
+; HPS_ISW_FILE                          ; ../qsys/soc_system/synthesis/submodules/sequencer/sequencer_defines.pre.h        ; --                                   ; soc_system_hps_0_hps_io_border ; --                                ;
+; HPS_ISW_FILE                          ; ../qsys/soc_system/synthesis/submodules/sequencer/system.pre.h                   ; --                                   ; soc_system_hps_0_hps_io_border ; --                                ;
+; HPS_ISW_FILE                          ; ../qsys/soc_system/synthesis/submodules/sequencer/tclrpt.pre.c                   ; --                                   ; soc_system_hps_0_hps_io_border ; --                                ;
+; HPS_ISW_FILE                          ; ../qsys/soc_system/synthesis/submodules/sequencer/tclrpt.pre.h                   ; --                                   ; soc_system_hps_0_hps_io_border ; --                                ;
+; HPS_ISW_FILE                          ; ../qsys/soc_system/synthesis/submodules/hps.pre.xml                              ; --                                   ; soc_system_hps_0_hps_io_border ; --                                ;
+; HPS_PARTITION                         ; On                                                                               ; --                                   ; soc_system_hps_0_hps_io_border ; --                                ;
+; MAX_CORE_JUNCTION_TEMP                ; 85                                                                               ; --                                   ; --                             ; --                                ;
+; MIN_CORE_JUNCTION_TEMP                ; 0                                                                                ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/../soc_system.cmp                                   ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/../../../quartus/C                                  ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/soc_system_hps_0_hps.svd                            ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/../../soc_system.qsys                               ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/submodules/sequencer/alt_types.pre.h                ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/submodules/sequencer/emif.pre.xml                   ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/submodules/sequencer/sdram_io.pre.h                 ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/submodules/sequencer/sequencer.pre.c                ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/submodules/sequencer/sequencer.pre.h                ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto.pre.h           ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto_ac_init.pre.c   ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/submodules/sequencer/sequencer_auto_inst_init.pre.c ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/submodules/sequencer/sequencer_defines.pre.h        ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/submodules/sequencer/system.pre.h                   ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/submodules/sequencer/tclrpt.pre.c                   ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/submodules/sequencer/tclrpt.pre.h                   ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../qsys/soc_system/synthesis/submodules/hps.pre.xml                              ; --                                   ; --                             ; --                                ;
+; MISC_FILE                             ; ../ip/altsource_probe/hps_reset_bb.v                                             ; --                                   ; --                             ; --                                ;
+; MUX_RESTRUCTURE                       ; Off                                                                              ; Auto                                 ; --                             ; --                                ;
+; NUM_PARALLEL_PROCESSORS               ; All                                                                              ; --                                   ; --                             ; --                                ;
+; OCP_HW_EVAL                           ; Disable                                                                          ; Enable                               ; --                             ; --                                ;
+; OPTIMIZATION_MODE                     ; Aggressive Performance                                                           ; Balanced                             ; --                             ; --                                ;
+; OPTIMIZATION_TECHNIQUE                ; Speed                                                                            ; Balanced                             ; --                             ; --                                ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS        ; Half Signal Swing                                                                ; --                                   ; --                             ; --                                ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS        ; Half Signal Swing                                                                ; --                                   ; --                             ; --                                ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS       ; Half Vccio                                                                       ; --                                   ; --                             ; --                                ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS       ; Half Vccio                                                                       ; --                                   ; --                             ; --                                ;
+; PARTITION_COLOR                       ; -- (Not supported for targeted family)                                           ; --                                   ; --                             ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL   ; -- (Not supported for targeted family)                                           ; --                                   ; --                             ; Top                               ;
+; PARTITION_NETLIST_TYPE                ; -- (Not supported for targeted family)                                           ; --                                   ; --                             ; Top                               ;
+; PHYSICAL_SYNTHESIS_COMBO_LOGIC        ; On                                                                               ; Off                                  ; --                             ; --                                ;
+; PHYSICAL_SYNTHESIS_REGISTER_RETIMING  ; On                                                                               ; Off                                  ; --                             ; --                                ;
+; PLACEMENT_EFFORT_MULTIPLIER           ; 4.0                                                                              ; 1.0                                  ; --                             ; --                                ;
+; POWER_BOARD_THERMAL_MODEL             ; None (CONSERVATIVE)                                                              ; --                                   ; --                             ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION         ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                            ; --                                   ; --                             ; --                                ;
+; PROJECT_IP_REGENERATION_POLICY        ; ALWAYS_REGENERATE_IP                                                             ; SKIP_REGENERATING_IP_IF_HDL_MODIFIED ; --                             ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY              ; output_files                                                                     ; --                                   ; --                             ; --                                ;
+; ROUTER_TIMING_OPTIMIZATION_LEVEL      ; MAXIMUM                                                                          ; Normal                               ; --                             ; --                                ;
+; SLD_FILE                              ; ../qsys/soc_system/synthesis/soc_system.regmap                                   ; --                                   ; --                             ; --                                ;
+; SLD_FILE                              ; ../qsys/soc_system/synthesis/soc_system.debuginfo                                ; --                                   ; --                             ; --                                ;
+; SLD_INFO                              ; QSYS_NAME soc_system HAS_SOPCINFO 1 GENERATION_ID 1775776985                     ; --                                   ; soc_system                     ; --                                ;
+; SOPCINFO_FILE                         ; ../qsys/soc_system/synthesis/../../soc_system.sopcinfo                           ; --                                   ; --                             ; --                                ;
+; SYNTHESIS_ONLY_QIP                    ; On                                                                               ; --                                   ; --                             ; --                                ;
+; USE_DLL_FREQUENCY_FOR_DQS_DELAY_CHAIN ; On                                                                               ; Off                                  ; --                             ; --                                ;
+; VERILOG_INPUT_VERSION                 ; SystemVerilog_2005                                                               ; Verilog_2001                         ; --                             ; --                                ;
+; VERILOG_SHOW_LMF_MAPPING_MESSAGES     ; Off                                                                              ; --                                   ; --                             ; --                                ;
+; VHDL_INPUT_VERSION                    ; VHDL_2008                                                                        ; VHDL_1993                            ; --                             ; --                                ;
+; VHDL_SHOW_LMF_MAPPING_MESSAGES        ; Off                                                                              ; --                                   ; --                             ; --                                ;
++---------------------------------------+----------------------------------------------------------------------------------+--------------------------------------+--------------------------------+-----------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:35     ; 1.0                     ; 5437 MB             ; 00:00:49                           ;
+; Fitter               ; 00:05:23     ; 1.2                     ; 8572 MB             ; 00:27:01                           ;
+; Assembler            ; 00:00:23     ; 1.0                     ; 5332 MB             ; 00:00:20                           ;
+; Timing Analyzer      ; 00:00:32     ; 1.6                     ; 6370 MB             ; 00:00:47                           ;
+; EDA Netlist Writer   ; 00:00:05     ; 1.0                     ; 4880 MB             ; 00:00:04                           ;
+; Total                ; 00:06:58     ; --                      ; --                  ; 00:29:01                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-L5V7KU1  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-L5V7KU1  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-L5V7KU1  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-L5V7KU1  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-L5V7KU1  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off QMTECH_C5SOC_NANO_GHRD -c QMTECH_C5SOC_NANO_GHRD
+quartus_fit --read_settings_files=off --write_settings_files=off QMTECH_C5SOC_NANO_GHRD -c QMTECH_C5SOC_NANO_GHRD
+quartus_asm --read_settings_files=off --write_settings_files=off QMTECH_C5SOC_NANO_GHRD -c QMTECH_C5SOC_NANO_GHRD
+quartus_sta QMTECH_C5SOC_NANO_GHRD -c QMTECH_C5SOC_NANO_GHRD
+quartus_eda --read_settings_files=off --write_settings_files=off QMTECH_C5SOC_NANO_GHRD -c QMTECH_C5SOC_NANO_GHRD
+
+
+

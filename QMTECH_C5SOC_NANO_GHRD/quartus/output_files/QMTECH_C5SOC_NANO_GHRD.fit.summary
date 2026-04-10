@@ -1,0 +1,20 @@
+Fitter Status : Successful - Fri Apr 10 03:02:59 2026
+Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Standard Edition
+Revision Name : QMTECH_C5SOC_NANO_GHRD
+Top-level Entity Name : QMTECH_C5SOC_NANO_GHRD
+Family : Cyclone V
+Device : 5CSEMA6U23I7
+Timing Models : Final
+Logic utilization (in ALMs) : 2,986 / 41,910 ( 7 % )
+Total registers : 4218
+Total pins : 127 / 314 ( 40 % )
+Total virtual pins : 0
+Total block memory bits : 2,816 / 5,662,720 ( < 1 % )
+Total RAM Blocks : 6 / 553 ( 1 % )
+Total DSP Blocks : 0 / 112 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0 / 6 ( 0 % )
+Total DLLs : 1 / 4 ( 25 % )
