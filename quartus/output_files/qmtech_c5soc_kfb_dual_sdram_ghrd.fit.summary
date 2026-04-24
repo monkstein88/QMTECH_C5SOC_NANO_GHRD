@@ -1,0 +1,20 @@
+Fitter Status : Successful - Fri Apr 24 20:42:48 2026
+Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Standard Edition
+Revision Name : qmtech_c5soc_kfb_dual_sdram_ghrd
+Top-level Entity Name : qmtech_c5soc_kfb_dual_sdram_ghrd
+Family : Cyclone V
+Device : 5CSEMA6U23I7
+Timing Models : Final
+Logic utilization (in ALMs) : 2,995 / 41,910 ( 7 % )
+Total registers : 4221
+Total pins : 127 / 314 ( 40 % )
+Total virtual pins : 0
+Total block memory bits : 2,816 / 5,662,720 ( < 1 % )
+Total RAM Blocks : 6 / 553 ( 1 % )
+Total DSP Blocks : 0 / 112 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0 / 6 ( 0 % )
+Total DLLs : 1 / 4 ( 25 % )
