@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="alt_sld_fab" kind="alt_sld_fab" version="1.0" fabric="QSYS">
  <!-- Format version 25.1 1129 (Future versions may contain additional information.) -->
- <!-- 2026.04.24.20:34:44 -->
+ <!-- 2026.05.10.21:27:30 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_DEVICE_FAMILY">
   <type>java.lang.String</type>
@@ -56,7 +56,7 @@
 the requested settings for a module instance. -->
   <parameter name="DESIGN_HASH">
    <type>java.lang.String</type>
-   <value>f188deffd4b72cc30c37</value>
+   <value>385f96c94bba3f772a79</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -104,7 +104,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="EP_INFOS">
    <type>java.lang.String</type>
-   <value>{hpath {soc_system:CV_SOC_SYSTEM_INST|soc_system_jtag_master_f2h_ddr3:jtag_master_f2h_ddr3|altera_avalon_st_jtag_interface:jtag_phy_embedded_in_jtag_master|altera_jtag_sld_node:node|sld_virtual_jtag_basic:sld_virtual_jtag_component|sld_virtual_jtag_impl:sld_virtual_jtag_impl_inst} } {hpath {soc_system:CV_SOC_SYSTEM_INST|soc_system_jtag_master_f2h_ddr3:jtag_master_fpga|altera_avalon_st_jtag_interface:jtag_phy_embedded_in_jtag_master|altera_jtag_sld_node:node|sld_virtual_jtag_basic:sld_virtual_jtag_component|sld_virtual_jtag_impl:sld_virtual_jtag_impl_inst} } {hpath {soc_system:CV_SOC_SYSTEM_INST|soc_system_jtag_master_f2h_ddr3:jtag_master_hps|altera_avalon_st_jtag_interface:jtag_phy_embedded_in_jtag_master|altera_jtag_sld_node:node|sld_virtual_jtag_basic:sld_virtual_jtag_component|sld_virtual_jtag_impl:sld_virtual_jtag_impl_inst} } {hpath {soc_system:CV_SOC_SYSTEM_INST|altera_avalon_jtag_uart:jtag_uart|alt_jtag_atlantic:altera_avalon_jtag_uart_alt_jtag_atlantic} } {hpath {hps_reset:HPS_RESET_INST|altsource_probe:altsource_probe_component} } </value>
+   <value>{hpath {soc_system:HPS_SOPC_INST|soc_system_jtag_master_f2h_ddr3:jtag_master_f2h_ddr3|altera_avalon_st_jtag_interface:jtag_phy_embedded_in_jtag_master|altera_jtag_sld_node:node|sld_virtual_jtag_basic:sld_virtual_jtag_component|sld_virtual_jtag_impl:sld_virtual_jtag_impl_inst} } {hpath {soc_system:HPS_SOPC_INST|soc_system_jtag_master_f2h_ddr3:jtag_master_fpga|altera_avalon_st_jtag_interface:jtag_phy_embedded_in_jtag_master|altera_jtag_sld_node:node|sld_virtual_jtag_basic:sld_virtual_jtag_component|sld_virtual_jtag_impl:sld_virtual_jtag_impl_inst} } {hpath {soc_system:HPS_SOPC_INST|soc_system_jtag_master_f2h_ddr3:jtag_master_hps|altera_avalon_st_jtag_interface:jtag_phy_embedded_in_jtag_master|altera_jtag_sld_node:node|sld_virtual_jtag_basic:sld_virtual_jtag_component|sld_virtual_jtag_impl:sld_virtual_jtag_impl_inst} } {hpath {soc_system:HPS_SOPC_INST|altera_avalon_jtag_uart:jtag_uart|alt_jtag_atlantic:altera_avalon_jtag_uart_alt_jtag_atlantic} } {hpath {hps_reset:HPS_RESET_INST|altsource_probe:altsource_probe_component} } </value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -3843,7 +3843,7 @@ parameters are a RESULT of the module parameters. -->
 the requested settings for a module instance. -->
   <parameter name="DESIGN_HASH">
    <type>java.lang.String</type>
-   <value>f188deffd4b72cc30c37</value>
+   <value>385f96c94bba3f772a79</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>

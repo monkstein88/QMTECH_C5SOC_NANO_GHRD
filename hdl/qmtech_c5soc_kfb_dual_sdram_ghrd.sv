@@ -96,7 +96,7 @@ assign stm_hw_events = {{21{1'b0}}, DIPSW, fpga_led_internal, fpga_debounced_but
 //=======================================================
 //  Structural coding
 //=======================================================
-soc_system CV_SOC_SYSTEM_INST(
+soc_system HPS_SOPC_INST(
   // Clock & Reset:
   .in_clk_clk                         (fpga_clk_50),         //                  in_clk.clk
   .in_reset_reset_n                   (hps_fpga_reset_n),    //                in_reset.reset_n

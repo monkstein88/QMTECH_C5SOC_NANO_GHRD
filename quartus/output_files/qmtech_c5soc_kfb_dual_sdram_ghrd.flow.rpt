@@ -1,5 +1,5 @@
 Flow report for qmtech_c5soc_kfb_dual_sdram_ghrd
-Fri Apr 24 20:44:46 2026
+Sun May 10 21:39:04 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Standard Edition
 
 
@@ -41,15 +41,15 @@ on the Quartus Prime software download page.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +---------------------------------+-----------------------------------------------------+
-; Flow Status                     ; Successful - Fri Apr 24 20:44:46 2026               ;
+; Flow Status                     ; Successful - Sun May 10 21:39:04 2026               ;
 ; Quartus Prime Version           ; 25.1std.0 Build 1129 10/21/2025 SC Standard Edition ;
 ; Revision Name                   ; qmtech_c5soc_kfb_dual_sdram_ghrd                    ;
 ; Top-level Entity Name           ; qmtech_c5soc_kfb_dual_sdram_ghrd                    ;
 ; Family                          ; Cyclone V                                           ;
 ; Device                          ; 5CSEMA6U23I7                                        ;
 ; Timing Models                   ; Final                                               ;
-; Logic utilization (in ALMs)     ; 2,995 / 41,910 ( 7 % )                              ;
-; Total registers                 ; 4221                                                ;
+; Logic utilization (in ALMs)     ; 3,000 / 41,910 ( 7 % )                              ;
+; Total registers                 ; 4204                                                ;
 ; Total pins                      ; 127 / 314 ( 40 % )                                  ;
 ; Total virtual pins              ; 0                                                   ;
 ; Total block memory bits         ; 2,816 / 5,662,720 ( < 1 % )                         ;
@@ -68,7 +68,7 @@ on the Quartus Prime software download page.
 +-------------------+----------------------------------+
 ; Option            ; Setting                          ;
 +-------------------+----------------------------------+
-; Start date & time ; 04/24/2026 20:34:14              ;
+; Start date & time ; 05/10/2026 21:27:02              ;
 ; Main task         ; Compilation                      ;
 ; Revision Name     ; qmtech_c5soc_kfb_dual_sdram_ghrd ;
 +-------------------+----------------------------------+
@@ -79,7 +79,7 @@ on the Quartus Prime software download page.
 +---------------------------------------+----------------------------------------------------------------------------------+--------------------------------------+--------------------------------+-----------------------------------+
 ; Assignment Name                       ; Value                                                                            ; Default Value                        ; Entity Name                    ; Section Id                        ;
 +---------------------------------------+----------------------------------------------------------------------------------+--------------------------------------+--------------------------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                 ; 20221254165505.177705205449819                                                   ; --                                   ; --                             ; --                                ;
+; COMPILER_SIGNATURE_ID                 ; 264800833728769.177843761811821                                                  ; --                                   ; --                             ; --                                ;
 ; ECO_REGENERATE_REPORT                 ; On                                                                               ; Off                                  ; --                             ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST       ; Off                                                                              ; --                                   ; --                             ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST       ; Off                                                                              ; --                                   ; --                             ; eda_board_design_boundary_scan    ;
@@ -161,12 +161,12 @@ on the Quartus Prime software download page.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:05     ; 1.0                     ; 852 MB              ; 00:01:32                           ;
-; Fitter               ; 00:03:13     ; 1.2                     ; 2754 MB             ; 00:05:32                           ;
-; Assembler            ; 00:00:41     ; 1.0                     ; 600 MB              ; 00:00:40                           ;
-; Timing Analyzer      ; 00:00:58     ; 1.4                     ; 1732 MB             ; 00:01:17                           ;
-; EDA Netlist Writer   ; 00:00:09     ; 1.0                     ; 784 MB              ; 00:00:09                           ;
-; Total                ; 00:06:06     ; --                      ; --                  ; 00:09:10                           ;
+; Analysis & Synthesis ; 00:01:08     ; 1.0                     ; 902 MB              ; 00:01:37                           ;
+; Fitter               ; 00:03:25     ; 1.2                     ; 2773 MB             ; 00:05:52                           ;
+; Assembler            ; 00:00:41     ; 1.0                     ; 608 MB              ; 00:00:41                           ;
+; Timing Analyzer      ; 00:01:03     ; 1.4                     ; 1720 MB             ; 00:01:26                           ;
+; EDA Netlist Writer   ; 00:00:10     ; 1.0                     ; 788 MB              ; 00:00:10                           ;
+; Total                ; 00:06:27     ; --                      ; --                  ; 00:09:46                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -1,6 +1,6 @@
 <sld_project_info>
   <sld_infos>
-    <sld_info hpath="soc_system:CV_SOC_SYSTEM_INST" name="CV_SOC_SYSTEM_INST">
+    <sld_info hpath="soc_system:HPS_SOPC_INST" name="HPS_SOPC_INST">
       <assignment_values>
         <assignment_value text="QSYS_NAME soc_system HAS_SOPCINFO 1 GENERATION_ID 1777049614"/>
       </assignment_values>

@@ -1,5 +1,5 @@
 Assembler report for qmtech_c5soc_kfb_dual_sdram_ghrd
-Fri Apr 24 20:43:35 2026
+Sun May 10 21:37:46 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Standard Edition
 
 
@@ -43,7 +43,7 @@ on the Quartus Prime software download page.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Apr 24 20:43:35 2026 ;
+; Assembler Status      ; Successful - Sun May 10 21:37:46 2026 ;
 ; Revision Name         ; qmtech_c5soc_kfb_dual_sdram_ghrd      ;
 ; Top-level Entity Name ; qmtech_c5soc_kfb_dual_sdram_ghrd      ;
 ; Family                ; Cyclone V                             ;
@@ -68,17 +68,17 @@ on the Quartus Prime software download page.
 +--------+------------------------+--------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                                                             ;
-+---------------------------------------------------------------------------------------------------------------------------------------+
-; File Name                                                                                                                             ;
-+---------------------------------------------------------------------------------------------------------------------------------------+
-; /home/monklp/workspace/GITHUB/@monkstein88/qmtech_c5soc_kfb_dual_sdram_ghrd/quartus/output_files/qmtech_c5soc_kfb_dual_sdram_ghrd.sof ;
-; /home/monklp/workspace/GITHUB/@monkstein88/qmtech_c5soc_kfb_dual_sdram_ghrd/quartus/output_files/qmtech_c5soc_kfb_dual_sdram_ghrd.jam ;
-; /home/monklp/workspace/GITHUB/@monkstein88/qmtech_c5soc_kfb_dual_sdram_ghrd/quartus/output_files/qmtech_c5soc_kfb_dual_sdram_ghrd.jbc ;
-; /home/monklp/workspace/GITHUB/@monkstein88/qmtech_c5soc_kfb_dual_sdram_ghrd/quartus/output_files/qmtech_c5soc_kfb_dual_sdram_ghrd.svf ;
-; /home/monklp/workspace/GITHUB/@monkstein88/qmtech_c5soc_kfb_dual_sdram_ghrd/quartus/output_files/qmtech_c5soc_kfb_dual_sdram_ghrd.rbf ;
-+---------------------------------------------------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                                                                                                         ;
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                                                                                         ;
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; /home/monklp/workspace/GITHUB/__monkstein88__/qmtech-c5soc-kfb-linux-build-env/SOURCES/qmtech-c5soc-kfb-dual-sdram-ghrd/quartus/output_files/qmtech_c5soc_kfb_dual_sdram_ghrd.sof ;
+; /home/monklp/workspace/GITHUB/__monkstein88__/qmtech-c5soc-kfb-linux-build-env/SOURCES/qmtech-c5soc-kfb-dual-sdram-ghrd/quartus/output_files/qmtech_c5soc_kfb_dual_sdram_ghrd.jam ;
+; /home/monklp/workspace/GITHUB/__monkstein88__/qmtech-c5soc-kfb-linux-build-env/SOURCES/qmtech-c5soc-kfb-dual-sdram-ghrd/quartus/output_files/qmtech_c5soc_kfb_dual_sdram_ghrd.jbc ;
+; /home/monklp/workspace/GITHUB/__monkstein88__/qmtech-c5soc-kfb-linux-build-env/SOURCES/qmtech-c5soc-kfb-dual-sdram-ghrd/quartus/output_files/qmtech_c5soc_kfb_dual_sdram_ghrd.svf ;
+; /home/monklp/workspace/GITHUB/__monkstein88__/qmtech-c5soc-kfb-linux-build-env/SOURCES/qmtech-c5soc-kfb-dual-sdram-ghrd/quartus/output_files/qmtech_c5soc_kfb_dual_sdram_ghrd.rbf ;
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------+
@@ -86,8 +86,8 @@ on the Quartus Prime software download page.
 +----------------+-----------------------------------------------+
 ; Option         ; Setting                                       ;
 +----------------+-----------------------------------------------+
-; JTAG usercode  ; 0x0139D6BB                                    ;
-; Checksum       ; 0x0139D6BB                                    ;
+; JTAG usercode  ; 0x0139CF66                                    ;
+; Checksum       ; 0x0139CF66                                    ;
 +----------------+-----------------------------------------------+
 
 
@@ -124,7 +124,7 @@ on the Quartus Prime software download page.
 ; Option              ; Setting                                  ;
 +---------------------+------------------------------------------+
 ; Raw Binary File     ;                                          ;
-;  Compression Ratio  ; 3                                        ;
+;  Compression Ratio  ; 1                                        ;
 +---------------------+------------------------------------------+
 
 
@@ -134,19 +134,17 @@ on the Quartus Prime software download page.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 25.1std.0 Build 1129 10/21/2025 SC Standard Edition
-    Info: Processing started: Fri Apr 24 20:42:54 2026
+    Info: Processing started: Sun May 10 21:37:05 2026
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off qmtech_c5soc_kfb_dual_sdram_ghrd -c qmtech_c5soc_kfb_dual_sdram_ghrd
 Info (115030): Assembler is generating device programming files
 Info (210117): Created JAM or JBC file for the specified chain: 
-Device 1 (5CSEMA6U23; /home/monklp/workspace/GITHUB/@monkstein88/qmtech_c5soc_kfb_dual_sdram_ghrd/quartus/output_files/qmtech_c5soc_kfb_dual_sdram_ghrd.sof)
+Device 1 (5CSEMA6U23; /home/monklp/workspace/GITHUB/__monkstein88__/qmtech-c5soc-kfb-linux-build-env/SOURCES/qmtech-c5soc-kfb-dual-sdram-ghrd/quartus/output_files/qmtech_c5soc_kfb_dual_sdram_ghrd.sof)
 Info (210117): Created JAM or JBC file for the specified chain: 
-Device 1 (5CSEMA6U23; /home/monklp/workspace/GITHUB/@monkstein88/qmtech_c5soc_kfb_dual_sdram_ghrd/quartus/output_files/qmtech_c5soc_kfb_dual_sdram_ghrd.sof)
-Warning (11713): The configuration of the Hard Processor Subsystem (HPS) within this design has changed.
-The Preloader software that initializes the HPS requires an update.
-Using hps_isw_handoff/soc_system_hps_0/, run the Preloader Support Package Generator to update your Preloader software
-Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 600 megabytes
-    Info: Processing ended: Fri Apr 24 20:43:35 2026
+Device 1 (5CSEMA6U23; /home/monklp/workspace/GITHUB/__monkstein88__/qmtech-c5soc-kfb-linux-build-env/SOURCES/qmtech-c5soc-kfb-dual-sdram-ghrd/quartus/output_files/qmtech_c5soc_kfb_dual_sdram_ghrd.sof)
+Info (11878): Hard Processor Subsystem configuration has not changed and a Preloader software update is not required
+Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 608 megabytes
+    Info: Processing ended: Sun May 10 21:37:46 2026
     Info: Elapsed time: 00:00:41
     Info: Total CPU time (on all processors): 00:00:41
 
